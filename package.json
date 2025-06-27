@@ -1,0 +1,26 @@
+{
+  "name": "moaz-website-generator",
+  "version": "1.0.0",
+  "description": "A beautifully designed website created with my generator.",
+  "homepage": "https://Moaz615.github.io/Moaz-Website-Generator",
+  "main": "notscript.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.1"
+  }
+}
